@@ -7,15 +7,14 @@
 </template>
 
 <script>
+
 import BenzModal from '../components/BenzModal.vue'
+
 export default {
     name: 'Benz',
-    components: {BenzModal},
-
-   
-
- 
+    components: {BenzModal}, 
 }
+
 </script>
 
 <style scoped>  

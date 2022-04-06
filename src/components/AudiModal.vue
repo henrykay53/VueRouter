@@ -10,6 +10,7 @@
 
 <script>
 export default {
+
     name: 'AudiModal',
       
     data() {
@@ -23,7 +24,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 
     .modal {
         width: 1000px;

@@ -1,24 +1,29 @@
 <template>
     <h1>Welcome To Audi's Page</h1>
     <img class="audi-img" src="@/assets/cars/audi.jpg" alt="black-audi">
-    <AudiModal />
+    <!-- <AudiModal /> -->
     <button class="show-btn">Show Car Detail</button>
   
 </template>
 
 <script>
-import AudiModal from '../components/AudiModal.vue'
+// import AudiModal from '../components/AudiModal.vue'
 
 export default {
   name: 'Audi',
-  components: {AudiModal},
+//   components: {AudiModal},
 }
 
 </script>
 
 <style scoped>
+
+    body {
+        background: black;
+    }
     .show-btn {
         background: black;
+        color: white;
         padding: 15px;
         margin-top: 20px;
         border-radius: 10px;
