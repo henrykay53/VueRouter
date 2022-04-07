@@ -4,6 +4,7 @@
         <p>Name: {{brand}}</p>
         <p>Model: {{model}}</p>
         <p>Engine Type: {{engine}}</p>
+        <p>Color: {{color}}</p>
         <p>Year of Production: {{year}}</p>
     </div>
   
@@ -12,14 +13,15 @@
 <script>
 
 export default {
-    
-    name: 'FordModal',
+
+    name: 'FordModal', // I know this is not compulsory, I am just leaving it here to constantly remind me of the name of the component i am exporting
 
     data() {
         return {
             brand: 'Ford',
             model: 'Shelby',
             engine: 'V8',
+            color: 'Blue',
             year: 2020
         }
     }
@@ -29,11 +31,13 @@ export default {
 
 <style scoped>
       .modal {
+          /* width: 100%; */
         width: 1000px;
         background: rgb(88, 89, 173);
         padding: 30px;
         border-radius: 10px;
-        margin-top: 20px;
+        margin-top: 60px;
+        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
      
@@ -42,7 +46,8 @@ export default {
 
     h2, p {
         padding: 10px;
-        background: green;
+        background: white;
+        font-weight: bold;
         margin-bottom: 20px;
         border-radius: 10px;
     }

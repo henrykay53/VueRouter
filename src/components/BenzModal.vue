@@ -4,22 +4,32 @@
         <p>Name: {{brand}}</p>
         <p>Model: {{model}}</p>
         <p>Engine Type: {{engine}}</p>
+        <p>Color: {{color}}</p>
         <p>Year of Production: {{year}}</p>
       </div>
 </template>
 
 <script>
 export default {
-    name: 'BenzModal',
 
     data()  {
         return  {
             brand: 'Benz',
             model: 'S-class',
             engine: 'V8',
-            year: 2020
+            color: 'Silver',
+            year: 2020,
+            // showModal: true
         }
-    }
+    }, 
+
+// I want to experiment with this method and see if I can emit it to control the car details
+    // methods: {
+    //     toggleCarDetails() {
+    //         this.showModal = !showModal
+    //         this.emit('show')
+    //     }
+    // }
 
 }
 
@@ -31,7 +41,8 @@ export default {
         background: grey;
         padding: 30px;
         border-radius: 10px;
-        margin-top: 20px;
+        margin-top: 60px;
+        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
      
@@ -39,7 +50,8 @@ export default {
 
     h2, p {
         padding: 10px;
-        background: green;
+        background: white;
+        font-weight: bold;
         margin-bottom: 20px;
         border-radius: 10px;
     }

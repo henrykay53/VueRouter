@@ -4,6 +4,7 @@
         <p>Name: {{brand}}</p>
         <p>Model: {{model}}</p>
         <p>Engine Type: {{engine}}</p>
+        <p>Color: {{color}}</p>
         <p>Year of Production: {{year}}</p>
     </div>
 </template>
@@ -18,29 +19,34 @@ export default {
             brand: 'Audi',
             model: 'R8',
             engine: 'V8',
+            color: 'Black',
             year: 2020
         }
     }
+}
 
 </script>
 
-<style>
+<style scoped>
 
     .modal {
         width: 1000px;
         background: grey;
         padding: 30px;
         border-radius: 10px;
-        margin-top: 20px;
+        margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
 
     }
 
 
+
     h2, p {
         padding: 10px;
-        background: green;
+        background: black;
+        color: white;
+        font-weight: bold;
         margin-bottom: 20px;
         border-radius: 10px;
     }
