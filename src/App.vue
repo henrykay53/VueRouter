@@ -15,8 +15,9 @@
 
 
 export default {
-  name: 'App',
+  name: 'App', 
 }
+
 </script>
 
 <style>
@@ -36,7 +37,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* background: black; */
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
 }
 

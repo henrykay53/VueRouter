@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import Audi from '../views/AudiDetails.vue'
-import Benz from '../views/BenzDetails.vue'
-import Ford from '../views/FordDetails.vue'
+import Audi from '../views/Audi.vue'
+import Benz from '../views/Benz.vue'
+import Ford from '../views/Ford.vue'
 
 
 
